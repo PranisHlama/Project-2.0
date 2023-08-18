@@ -4,5 +4,3 @@ document.querySelector('#user-btn').onclick = () =>{
     profile.classList.toggle('active');
 }
 
-
-
