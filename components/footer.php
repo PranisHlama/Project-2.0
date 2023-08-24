@@ -11,6 +11,17 @@
       </div>
 
       <div class="box">
+<<<<<<< HEAD
+=======
+         <h3>extra links</h3>
+         <a href="index.php"> <i class="fas fa-angle-right"></i> login</a>
+         <a href="user_register.php"> <i class="fas fa-angle-right"></i> register</a>
+         <a href="cart.php"> <i class="fas fa-angle-right"></i> cart</a>
+         <a href="orders.php"> <i class="fas fa-angle-right"></i> orders</a>
+      </div>
+
+      <div class="box">
+>>>>>>> 10c6d0444a72e2a3e8e99f1595425598087c5691
          <h3>contact us</h3>
          <a href="tel:1234567890"><i class="fas fa-phone"></i> 9803379819</a>
          <a href="tel:11122233333"><i class="fas fa-phone"></i> 9849556321</a>

@@ -53,7 +53,7 @@
          <a href="update_user.php" class="btn">update profile</a>
          <div class="flex-btn">
             <a href="user_register.php" class="option-btn">register</a>
-            <a href="user_login.php" class="option-btn">login</a>
+            <a href="index.php" class="option-btn">login</a>
          </div>
          <a href="components/user_logout.php" class="delete-btn" onclick="return confirm('logout from the website?');">logout</a> 
          <?php
@@ -62,7 +62,7 @@
          <p>please login or register first!</p>
          <div class="flex-btn">
             <a href="user_register.php" class="option-btn">register</a>
-            <a href="user_login.php" class="option-btn">login</a>
+            <a href="index.php" class="option-btn">login</a>
          </div>
          <?php
             }
