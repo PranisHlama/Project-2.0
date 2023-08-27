@@ -48,8 +48,8 @@ include 'components/wishlist_cart.php';
             <img src="images/home-img-1.png" alt="">
          </div>
          <div class="content">
-            <span>upto 50% off</span>
-            <h3>latest smartphones</h3>
+            <span>lakhey design tshirt</span>
+            <h3>new design alert!</h3>
             <a href="shop.php" class="btn">shop now</a>
          </div>
       </div>
@@ -59,8 +59,8 @@ include 'components/wishlist_cart.php';
             <img src="images/home-img-2.png" alt="">
          </div>
          <div class="content">
-            <span>upto 50% off</span>
-            <h3>latest watches</h3>
+            <span>caffiene design tshirt</span>
+            <h3>new design alert!</h3>
             <a href="shop.php" class="btn">shop now</a>
          </div>
       </div>
@@ -70,8 +70,8 @@ include 'components/wishlist_cart.php';
             <img src="images/home-img-3.png" alt="">
          </div>
          <div class="content">
-            <span>upto 50% off</span>
-            <h3>latest headsets</h3>
+            <span>it is whats it is design tshirt</span>
+            <h3>new design alert!</h3>
             <a href="shop.php" class="btn">shop now</a>
          </div>
       </div>
@@ -85,62 +85,6 @@ include 'components/wishlist_cart.php';
 </section>
 
 </div>
-
-<section class="category">
-
-   <h1 class="heading">shop by category</h1>
-
-   <div class="swiper category-slider">
-
-   <div class="swiper-wrapper">
-
-   <a href="category.php?category=laptop" class="swiper-slide slide">
-      <img src="images/icon-1.png" alt="">
-      <h3>tshirt</h3>
-   </a>
-
-   <a href="category.php?category=tv" class="swiper-slide slide">
-      <img src="images/icon-2.png" alt="">
-      <h3>hoodie</h3>
-   </a>
-
-   <a href="category.php?category=camera" class="swiper-slide slide">
-      <img src="images/icon-3.png" alt="">
-      <h3>sweat-shirt</h3>
-   </a>
-
-   <!-- <a href="category.php?category=mouse" class="swiper-slide slide">
-      <img src="images/icon-4.png" alt="">
-      <h3>mouse</h3>
-   </a>
-
-   <a href="category.php?category=fridge" class="swiper-slide slide">
-      <img src="images/icon-5.png" alt="">
-      <h3>fridge</h3>
-   </a>
-
-   <a href="category.php?category=washing" class="swiper-slide slide">
-      <img src="images/icon-6.png" alt="">
-      <h3>washing machine</h3>
-   </a>
-
-   <a href="category.php?category=smartphone" class="swiper-slide slide">
-      <img src="images/icon-7.png" alt="">
-      <h3>smartphone</h3>
-   </a>
-
-   <a href="category.php?category=watch" class="swiper-slide slide">
-      <img src="images/icon-8.png" alt="">
-      <h3>watch</h3>
-   </a> -->
-
-   </div>
-
-   <div class="swiper-pagination"></div>
-
-   </div>
-
-</section>
 
 <section class="home-products">
 
@@ -166,7 +110,7 @@ include 'components/wishlist_cart.php';
       <img src="uploaded_img/<?= $fetch_product['image_01']; ?>" alt="">
       <div class="name"><?= $fetch_product['name']; ?></div>
       <div class="flex">
-         <div class="price"><span>$</span><?= $fetch_product['price']; ?><span>/-</span></div>
+         <div class="price"><span>Rs</span><?= $fetch_product['price']; ?><span>/-</span></div>
          <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1">
       </div>
       <input type="submit" value="add to cart" class="btn" name="add_to_cart">

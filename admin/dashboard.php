@@ -7,7 +7,7 @@ session_start();
 $admin_id = $_SESSION['admin_id'];
 
 if(!isset($admin_id)){
-   header('location:admin_login.php');
+   header('location:index.php');
 }
 
 ?>
@@ -52,7 +52,7 @@ if(!isset($admin_id)){
                }
             }
          ?>
-         <h3><span>$</span><?= $total_pendings; ?><span>/-</span></h3>
+         <h3><span>Rs</span><?= $total_pendings; ?><span>/-</span></h3>
          <p>total pendings</p>
          <a href="placed_orders.php" class="btn">see orders</a>
       </div>
@@ -68,7 +68,7 @@ if(!isset($admin_id)){
                }
             }
          ?>
-         <h3><span>$</span><?= $total_completes; ?><span>/-</span></h3>
+         <h3><span>Rs</span><?= $total_completes; ?><span>/-</span></h3>
          <p>completed orders</p>
          <a href="placed_orders.php" class="btn">see orders</a>
       </div>
@@ -117,7 +117,7 @@ if(!isset($admin_id)){
          <a href="admin_accounts.php" class="btn">see admins</a>
       </div>
 
-      <div class="box">
+      <!-- <div class="box">
          <?php
             $select_messages = $conn->prepare("SELECT * FROM `messages`");
             $select_messages->execute();
@@ -125,8 +125,8 @@ if(!isset($admin_id)){
          ?>
          <h3><?= $number_of_messages; ?></h3>
          <p>new messages</p>
-         <a href="messagess.php" class="btn">see messages</a>
-      </div>
+         <a href="messages.php" class="btn">see messages</a>
+      </div> -->
 
    </div>
 

@@ -15,14 +15,13 @@
 
    <section class="flex">
 
-      <a href="home.php" class="logo">Shopie<span>.</span></a>
+      <a href="home.php" class="logo">Pixclo<span>.</span></a>
 
       <nav class="navbar">
          <a href="home.php">home</a>
-         <a href="about.php">about</a>
-         <a href="orders.php">orders</a>
          <a href="shop.php">shop</a>
-         <a href="contact.php">contact</a>
+         <a href="orders.php">orders</a>
+         <a href="about.php">about</a>
       </nav>
 
       <div class="icons">
@@ -53,7 +52,7 @@
          <a href="update_user.php" class="btn">update profile</a>
          <div class="flex-btn">
             <a href="user_register.php" class="option-btn">register</a>
-            <a href="user_login.php" class="option-btn">login</a>
+            <a href="index.php" class="option-btn">login</a>
          </div>
          <a href="components/user_logout.php" class="delete-btn" onclick="return confirm('logout from the website?');">logout</a> 
          <?php
@@ -62,7 +61,7 @@
          <p>please login or register first!</p>
          <div class="flex-btn">
             <a href="user_register.php" class="option-btn">register</a>
-            <a href="user_login.php" class="option-btn">login</a>
+            <a href="index.php" class="option-btn">login</a>
          </div>
          <?php
             }

@@ -249,7 +249,7 @@ section{
 }
 
 .home-bg .home .slide .image{
-   flex:1 1 40rem;
+   flex:1 1 60rem;
 }
 
 .home-bg .home .slide .image img{
@@ -279,11 +279,20 @@ section{
    width: auto;
 }
 
+
 .swiper-pagination-bullet-active{
    background-color: var(--main-color);
 }
 
-.category .slide{
+.category .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+   gap:2rem;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.category .box-container .box{
    margin-bottom: 5rem;
    box-shadow: var(--box-shadow);
    border:var(--border);
@@ -291,29 +300,22 @@ section{
    padding:2rem;
    background: var(--white);
    border-radius: .5rem;
+   display: inline-block;
 }
 
-.category .slide:hover{
-   background-color: var(--black);
+.category .box-container .box:hover{
+   background-color: rgb(255, 149, 36);
 }
 
-.category .slide:hover img{
+.category .box-container .box:hover img{
    filter:invert();
 }
 
-.category .slide:hover h3{
+.category .box-container .box:hover h3{
    color:var(--white);
 }
 
-.category .slide img{
-   height: 7rem;
-   width: 100%;
-   object-fit: contain;
-   margin-bottom: 1rem;
-   user-select: none;
-}
-
-.category .slide h3{
+.category .box-container .box h3{
    font-size: 2rem;
    color:var(--black);
    user-select: none;
@@ -650,9 +652,25 @@ section{
    padding:1rem 0;
 }
 
-.about .row .content .btn{
-   display: inline-block;
-   width: auto;
+.about .content-box a{
+   display: block;
+   margin:1.5rem 0;
+   font-size: 1.7rem;
+   color:var(--light-color);
+}
+
+.about .content-box a i{
+   padding-right: 1rem;
+   color:var(--main-color);
+   transition: .2s linear;
+}
+
+.about .content-box a:hover{
+   color:var(--main-color);
+}
+
+.about .content-box a:hover i{
+   padding-right: 2rem;
 }
 
 .reviews .slide{
