@@ -126,7 +126,11 @@ if(!isset($admin_id)){
          <h3><?= $number_of_messages; ?></h3>
          <p>new messages</p>
          <a href="messages.php" class="btn">see messages</a>
+<<<<<<< HEAD
       </div> -->
+=======
+      </div>
+>>>>>>> d0cffa116e1f9aa10d37b30a16787c93f003081e
 
    </div>
 

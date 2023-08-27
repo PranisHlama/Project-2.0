@@ -15,13 +15,21 @@
 
    <section class="flex">
 
+<<<<<<< HEAD
       <a href="home.php" class="logo">Pixclo<span>.</span></a>
+=======
+      <a href="home.php" class="logo">Pixnep<span>.</span></a>
+>>>>>>> d0cffa116e1f9aa10d37b30a16787c93f003081e
 
       <nav class="navbar">
          <a href="home.php">home</a>
          <a href="shop.php">shop</a>
          <a href="orders.php">orders</a>
          <a href="about.php">about</a>
+<<<<<<< HEAD
+=======
+         <a href="contact.php">contact</a>
+>>>>>>> d0cffa116e1f9aa10d37b30a16787c93f003081e
       </nav>
 
       <div class="icons">

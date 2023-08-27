@@ -43,6 +43,7 @@ if(isset($_SESSION['user_id'])){
 
       <div class="content">
          <h3>why choose us?</h3>
+<<<<<<< HEAD
          <p>Pixclo is the clothing brand where we create our own lisenced designs which we print in our products. We provide high quality fabric and best unique grapical designs created by our talented artists to our valued customers. <br>For any inquiries and collaborations, feel free to contact us.</br> </p>
             <div class="content-box">
                <a href="tel:1234567890"><i class="fas fa-phone"></i> 9803379819</a>
@@ -58,6 +59,17 @@ if(isset($_SESSION['user_id'])){
 </section>
 
 
+=======
+         <p>Pixnep is the clothing brand where we create our own lisenced designs which we print in our products. We provide high quality fabric and best unique grapical designs created by our talented artists to our valued customers. <br>For any inquiries and collaborations, feel free to contact us.</br> </p>
+         <a href="contact.php" class="btn">contact us</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+>>>>>>> d0cffa116e1f9aa10d37b30a16787c93f003081e
 
 
 
